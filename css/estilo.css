@@ -167,7 +167,7 @@ h3 {
 }
 
 .produtos div {
-    height: 400px;
+    height: 420px;
     width: 350px;
     background: #F7F1E6;
     border-radius: 8px;
@@ -178,21 +178,95 @@ h3 {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #0B1D03;;
+    color: #0B1D03;
+    margin-bottom: 10px;
+}
+
+.produtos img {
+    padding-left: 85px;
+}
+
+.produtos h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0B1D03;
+    text-align: center;
+    height: 10px;
+}
+
+.produtos p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #0B1D03;
+    margin-left: 205px;
+    margin-top: -15px;
+}
+
+.produtos button {
+    Width: 250px;
+    Height: 50px;    
+    background: #0B1D03;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 50px;
 }
 
 .produtos2 {
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .produtos2 div {
-    height: 400px;
+    height: 420px;
     width: 350px;
     background: #F7F1E6;
     border-radius: 8px;
+}
+
+.produtos2 h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #0B1D03;
+    margin-bottom: 10px;
+}
+
+.produtos2 img {
+    padding-left: 85px;
+}
+
+.produtos2 h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0B1D03;
+    text-align: center;
+    height: 10px;
+}
+
+.produtos2 p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #0B1D03;
+    margin-left: 205px;
+    margin-top: -15px;
+}
+
+.produtos2 button {
+    Width: 250px;
+    Height: 50px;    
+    background: #0B1D03;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 50px;
 }
 
