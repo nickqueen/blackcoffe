@@ -1,3 +1,148 @@
-.body {
+
+/*geral*/
+
+body {
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 1600px;
+    margin: 0 auto;
 }
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/*header*/
+
+.imagem_fundo {
+    background-image: url(../img/balcão.png);
+    repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 80px;
+}
+
+.menu {
+    width: 28px;
+    height: 28px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.sacola {
+    width: 18px;   
+    height: 20px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.banner img {
+    margin-left: 5px;
+}
+
+/*texto - Preparamos o melhor café fresco*/
+
+.título_principal {
+    padding-top: 40px;
+    padding-left: 80px;
+/*config texto*/
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.título_principal p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subtítulo_principal {
+    padding-top: 24px;
+    padding-left: 80px;
+/*config texto*/
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.subtítulo_principal h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.setas {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.descrição {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    align-content: space-between;
+}
+
+.descrição img {
+    padding-left: 80px;
+}
+
+.descrição h3 {
+    width: 581px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 56px;
+    padding-left: 155px;
+    color: #0B1D03;
+}
+
+.descrição p {
+    width: 581px;
+    height: 160px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 155px;
+    color: #0B1D03;
+}
+
+.descrição2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    align-content: space-between;
+}
+
+.descrição2 h3 {
+    width: 581px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #0B1D03;
+    padding-left: 80px;
+}
+
+.descrição2 p {
+    width: 581px;
+    height: 160px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 155px;
+    color: #0B1D03;
+}
+S
