@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     width: 1600px;
     margin: 0 auto;
+    background: #E5E5E5;
 }
 
 h3 {
@@ -268,5 +269,66 @@ h3 {
     font-weight: 700;
     font-size: 15px;
     margin-left: 50px;
+    justify-content: space-between;
 }
 
+.beneficios {
+    padding: 80px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.beneficios p {
+    Width: 200px;
+    Height: 52px;
+    margin-top: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.beneficios img {
+    padding-left: 60px;
+}
+
+.catálogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+
+.catálogo h3{
+    margin-top: 350px;
+    margin-left: 40px;
+    padding-left: 80px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFCF6;
+}
+
+.catálogo p {
+    padding-left: 80px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFCF6;
+    Width: 451px;
+    Height: 48px;
+}
+
+.catálogo img {
+    position: absolute;
+    z-index: -1;
+    padding-left: 80px;
+    padding-right: 200px;
+}
+
+
+.mapa {
+    padding-top: 200px;
+}
