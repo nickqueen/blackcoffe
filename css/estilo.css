@@ -145,4 +145,54 @@ h3 {
     padding-right: 155px;
     color: #0B1D03;
 }
-S
+
+.título {
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 939px;
+    color: #A0996C;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.produtos {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.produtos div {
+    height: 400px;
+    width: 350px;
+    background: #F7F1E6;
+    border-radius: 8px;
+}
+
+.produtos h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #0B1D03;;
+}
+
+.produtos2 {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.produtos2 div {
+    height: 400px;
+    width: 350px;
+    background: #F7F1E6;
+    border-radius: 8px;
+}
+
