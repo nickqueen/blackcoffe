@@ -294,13 +294,37 @@ h3 {
 }
 
 .catálogo {
+    width: 1310px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 160px;
 }
 
-.catálogo h3{
+.acessorio h3{
+    margin-top: 350px;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFCF6;
+}
+
+.acessorio p {
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFCF6;
+    Width: 451px;
+    Height: 48px;
+}
+
+.acessorio img {
+    position: absolute;
+    z-index: -1;
+}
+
+.café h3{
     margin-top: 350px;
     margin-left: 40px;
     padding-left: 80px;
@@ -310,7 +334,7 @@ h3 {
     color: #FFFCF6;
 }
 
-.catálogo p {
+.café p {
     padding-left: 80px;
     margin-left: 40px;
     font-weight: 500;
@@ -321,14 +345,85 @@ h3 {
     Height: 48px;
 }
 
-.catálogo img {
+.café img {
     position: absolute;
     z-index: -1;
     padding-left: 80px;
     padding-right: 200px;
 }
 
-
 .mapa {
-    padding-top: 200px;
+    width: 1600px;
+    height: 840px;
+    margin-top: 160px;
+    background: #FFFFFF;
+}
+
+.mapa h3 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #0B1D03;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.mapa form {
+    padding-left: 80px;
+    padding-bottom: 24px;    
+}
+
+.mapa input {
+    height: 76px;
+    width: 459px;
+    border-radius: 4px;
+    padding-left: 28px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;   
+}
+
+
+.mapa img {
+    height: 512px;
+    width: 1440px;
+    padding-left: 80px;
+}
+
+.rodapé {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #F7F1E6;
+    padding-left: 80px;
+    padding-top: 56px;
+    padding-right: 80px;
+    height: 306px;
+    width: 1600px;
+}
+
+.rodapé h2 {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: left;
+    color: #1F1F1F;
+}
+
+.rodapé a {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.rodapé li {
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+.final {
+    width: 1600px;
+    height: 68px;
+    background-color: #F7F1E6;
+    padding-left: 650px;
 }
