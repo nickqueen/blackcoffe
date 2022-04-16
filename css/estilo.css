@@ -4,9 +4,10 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
     background: #E5E5E5;
+    align-items: center;
 }
 
 h3 {
@@ -17,8 +18,10 @@ h3 {
 
 .imagem_fundo {
     background-image: url(../img/balcão.png);
-    repeat: no-repeat;
-    width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 900px;
 }
 
@@ -26,6 +29,10 @@ h3 {
     display: flex;
     justify-content: space-between;
     padding: 32px 80px;
+}
+
+.topo img {
+
 }
 
 .menu {
@@ -221,7 +228,6 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .produtos2 div {
@@ -294,10 +300,37 @@ h3 {
 }
 
 .catálogo {
-    width: 1310px;
+    width: 1600px;
+    margin-left: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 300px;
+}
+
+.café h3 {
+    margin-top: 350px;
+    margin-left: 40px;  
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFCF6;
+}
+
+.café p {
+   
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFCF6;
+    Width: 451px;
+    Height: 48px;
+}
+
+.café img {
+    position: absolute;
+    z-index: -1;
 }
 
 .acessorio h3{
@@ -324,39 +357,13 @@ h3 {
     z-index: -1;
 }
 
-.café h3{
-    margin-top: 350px;
-    margin-left: 40px;
-    padding-left: 80px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    color: #FFFCF6;
-}
-
-.café p {
-    padding-left: 80px;
-    margin-left: 40px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFCF6;
-    Width: 451px;
-    Height: 48px;
-}
-
-.café img {
-    position: absolute;
-    z-index: -1;
-    padding-left: 80px;
-    padding-right: 200px;
-}
-
 .mapa {
+    display: flex;
+    justify-content: center;
     width: 1600px;
     height: 840px;
     margin-top: 160px;
-    background: #FFFFFF;
+    background: #FFFFFF;    
 }
 
 .mapa h3 {
@@ -392,13 +399,14 @@ h3 {
 
 .rodapé {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
+    gap: 250px; 
     background-color: #F7F1E6;
     padding-left: 80px;
     padding-top: 56px;
     padding-right: 80px;
     height: 306px;
-    width: 1600px;
+    width: 100%;
 }
 
 .rodapé h2 {
@@ -413,7 +421,11 @@ h3 {
     color: #1F1F1F;
     font-size: 20px;
     font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
     text-align: left;
+    margin-bottom: 12px;
+    margin-left: -40px;
 }
 
 .rodapé li {
@@ -421,9 +433,46 @@ h3 {
     padding-bottom: 12px;
 }
 
+.RS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.IG {
+    width: 33px;
+    height: 33px;
+    background-color: #1F1F1F;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+    
+
+.FB {
+    width: 33px;
+    height: 33px;
+    background-color: #1F1F1F;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.TT {
+    width: 33px;
+    height: 33px;
+    background-color: #1F1F1F;
+    background-image: url(../img/Twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+
 .final {
-    width: 1600px;
+    text-align: center;
+    width: 100%;
     height: 68px;
     background-color: #F7F1E6;
-    padding-left: 650px;
 }
