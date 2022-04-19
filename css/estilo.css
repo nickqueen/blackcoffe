@@ -297,11 +297,10 @@ h3 {
 }
 
 .catálogo {
-    width: 1600px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-around;
 }
 
 .café h3 {
@@ -324,7 +323,8 @@ h3 {
 }
 
 .café img {
-
+    position: absolute;
+    z-index: -1;
 }
 
 .acessorio h3{
@@ -347,8 +347,8 @@ h3 {
 }
 
 .acessorio img {
-   
-    z-index: -1;
+   position: absolute;
+   z-index: -1;
 }
 
 .mapa {
@@ -374,24 +374,25 @@ h3 {
 
 .mapa img {
     padding-left: 80px;
+    width: 1440px;
 }
 
 .cidade {
-    width: 459px;
+    width: 400px;
     height: 76px;
     border-radius: 4px;
-    
+    padding-left: 28px;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     background-image: url(../img/cidade.png);
     background-repeat: no-repeat;
-    background-position: 424px center;
+    background-position: 380px center;
 }
 
 .endereço {
     height: 76px;
-    width: 949px;
+    width: 940px;
     border-radius: 4px;
     margin-left: 32px;
     padding-left: 28px;
@@ -405,7 +406,6 @@ h3 {
 
 .mapa img {
     height: 512px;
-    width: 1505px;
     align-items: center;
 }
 
