@@ -50,7 +50,7 @@ h3 {
 }
 
 .banner img {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 /*texto - Preparamos o melhor café fresco*/
@@ -86,7 +86,12 @@ h3 {
 }
 
 .setas {
-    padding-top: 50px;
+    margin: 60px 0px;
+    padding-left: 60px;
+}
+
+.setas img {
+    padding-left: 20px;
 }
 
 .descrição {
@@ -199,9 +204,9 @@ h3 {
 .produtos p {
     font-weight: 500;
     font-size: 15px;
-    color: #0B1D03;
+    color: #969696;
     margin-left: 205px;
-    margin-top: -15px;
+    margin-top: -22px;
 }
 
 .produtos button {
@@ -255,9 +260,9 @@ h3 {
 .produtos2 p {
     font-weight: 500;
     font-size: 15px;
-    color: #0B1D03;
+    color: #969696;
     margin-left: 205px;
-    margin-top: -15px;
+    margin-top: -22px;
 }
 
 .produtos2 button {
@@ -445,8 +450,20 @@ h3 {
 .RS {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: center;
+    gap: 70px; 
+    margin-left: 40px;
+
+    
 }
+
+.rodapé_RS h2 {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: left;
+    color: #1F1F1F;
+}
+
 
 .IG {
     width: 33px;
