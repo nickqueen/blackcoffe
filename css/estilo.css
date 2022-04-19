@@ -5,8 +5,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     width: 100%;
-    margin: 0 auto;
-    background: #E5E5E5;
+    background:  #E5E5E5;
 }
 
 h3 {
@@ -18,7 +17,6 @@ h3 {
 .imagem_fundo {
     background-image: url(../img/balcão.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 100%;
     width: 100%;
     height: 900px;
@@ -129,7 +127,7 @@ h3 {
     display: flex;
     flex-direction: row;
     margin-top: 120px;
-    align-content: space-between;
+    align-content: center;
 }
 
 .descrição2 h3 {
@@ -300,11 +298,10 @@ h3 {
 
 .catálogo {
     width: 1600px;
-    margin-left: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 300px;
+    gap: 50px;
 }
 
 .café h3 {
@@ -317,7 +314,6 @@ h3 {
 }
 
 .café p {
-   
     margin-left: 40px;
     font-weight: 500;
     font-size: 20px;
@@ -328,8 +324,7 @@ h3 {
 }
 
 .café img {
-    position: absolute;
-    z-index: -1;
+
 }
 
 .acessorio h3{
@@ -352,7 +347,7 @@ h3 {
 }
 
 .acessorio img {
-    position: absolute;
+   
     z-index: -1;
 }
 
@@ -368,7 +363,7 @@ h3 {
     font-size: 56px;
     line-height: 60px;
     color: #0B1D03;
-    margin-left: 100px;
+    margin-left: 80px;
     padding-top: 45px;
 }
 
@@ -377,12 +372,15 @@ h3 {
     padding-bottom: 24px;    
 }
 
+.mapa img {
+    padding-left: 80px;
+}
+
 .cidade {
     width: 459px;
     height: 76px;
     border-radius: 4px;
-    padding-left: 28px;
-    margin-left: 25px;
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
@@ -408,7 +406,7 @@ h3 {
 .mapa img {
     height: 512px;
     width: 1505px;
-    padding-left: 110px;
+    align-items: center;
 }
 
 .rodapé {
@@ -416,7 +414,6 @@ h3 {
     justify-content: center;
     gap: 250px; 
     background-color: #F7F1E6;
-    padding-left: 80px;
     padding-top: 56px;
     padding-right: 80px;
     height: 306px;
