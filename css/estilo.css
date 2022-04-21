@@ -299,7 +299,8 @@ h3 {
 .catálogo {
     width: 1600px;
     display: inline-flex;
-
+    margin-left: 80px;
+    gap: 250px;
 }
 
 .café h3 {
