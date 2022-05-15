@@ -9,6 +9,8 @@ body {
 /*Banner principal*/
 .banner_principal {
     background-image: url('../img/balcão.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 900px;
 }
@@ -16,11 +18,109 @@ body {
 .banner_menu {
     display: flex;
    justify-content: space-around;
+   padding-top: 32px;
+   padding-bottom: 150px;
 }
 
-.banner_menu img {
-    margin-top: 32px;
+.banner_menu button {
+   background-color: transparent;
+   border: none;
 }
 
+/*navegação / descrição / setas*/
 
+.navegação {
+    padding-left: 80px;
+}
+
+.título p {
+    font-family: Playfair Display;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.título h2 {
+    font-family: 'Questrial', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 120px;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.setas {
+    margin-left: 80px;
+}
+
+.setas button {
+    background-color: transparent;
+    border: none;
+}
+
+/*descrição do café*/
+
+.descrição_café {
+    display: flex;
+   justify-content: center;
+   padding-top: 120px;
+   padding-bottom: 140px;
+   gap: 140px;
+}
+
+.descrição_café h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #0B1D03;
+}
+
+.descrição_café p {
+    width: 581px;
+    height: 160px;
+    color: #0B1D03;
+}
+
+.descrição_mais {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 180px;
+    gap: 140px;
+}
+
+.descrição_mais h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #0B1D03;
+}
+
+.descrição_mais p {
+    width: 581px;
+    height: 160px;
+    color: #0B1D03;
+}
+
+/*Menu de compra*/
+
+.menu_compra {
+    margin-left: 80px;
+}
+
+.menu_compra h3 {
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #A0996C;
+}
 
