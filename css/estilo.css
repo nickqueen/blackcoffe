@@ -115,7 +115,6 @@ body {
 }
 
 .menu_compra h3 {
-    
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
@@ -123,4 +122,70 @@ body {
     line-height: 60px;
     color: #A0996C;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 32px;
+    gap: 32px;
+    
+}
+
+.compra {
+    border-radius: 8px;
+    background: #F7F1E6;
+    width: 459px;
+    height: 560px;
+   
+}
+
+.compra h4 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 40px;
+}
+
+.compra h2 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0B1D03;
+    margin-bottom: -56px;
+    margin-left: -70px;
+    
+}
+
+.compra p {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #969696;
+    margin-left: 90px;
+}
+
+.compra button {
+    font-family: 'Questrial', sans-serif;
+    background: #0B1D03;
+    border-radius: 4px;
+    width: 395px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
 
