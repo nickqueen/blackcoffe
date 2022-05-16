@@ -317,7 +317,7 @@ body {
     box-sizing: border-box;
     border: 2px solid #0B1D03;
     border-radius: 4px;
-    Width: 949px;
+    Width: 930px;
     Height: 76px;
     font-style: normal;
     font-weight: 500;
@@ -328,12 +328,15 @@ body {
     margin-left: 28px;
     background-image: url(../img/cidade.png);
     background-repeat: no-repeat;
-    background-position: 910px 33px;
+    background-position: 890px 33px;
 }
 
 .mapa img {
     margin-top: 24px;
     padding-left: 80px;
+    Width: 1420px;
+    Height: 500px;
+
 }
 
 /*rodapé*/
@@ -415,7 +418,7 @@ body {
     width: 33px;
     height: 33px;
     background-color: #1F1F1F;
-    background-image: url(../img/Twitter.png);
+    background-image: url(../img/twitter.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50px;
