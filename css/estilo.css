@@ -64,7 +64,7 @@ body {
 
 /*descrição do café*/
 .descrição_café {
-    display: flex;
+   display: flex;
    justify-content: center;
    padding-top: 120px;
    padding-bottom: 140px;
@@ -106,6 +106,7 @@ body {
     font-family: 'Questrial', sans-serif;
     width: 581px;
     height: 160px;
+    font-size: 32px;
     color: #0B1D03;
     margin-left: 100px;
 }
@@ -323,7 +324,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    color: #969696;
+    color: #FFFFFF;
     padding-left: 28px;
     margin-left: 28px;
     background-image: url(../img/cidade.png);
