@@ -391,36 +391,4 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    
-}
-
-.IG {
-    width: 33px;
-    height: 33px;
-    background-color: #1F1F1F;
-    background-image: url(../img/instagram.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50px;
-}
-    
-
-.FB {
-    width: 33px;
-    height: 33px;
-    background-color: #1F1F1F;
-    background-image: url(../img/facebook.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50px;
-}
-
-.TT {
-    width: 33px;
-    height: 33px;
-    background-color: #1F1F1F;
-    background-image: url(../img/twitter.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50px;
 }
