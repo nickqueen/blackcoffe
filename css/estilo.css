@@ -16,15 +16,21 @@ body {
 }
 
 .banner_menu {
-    display: flex;
-   justify-content: space-around;
+   display: flex;
+   justify-content: space-between;
    padding-top: 32px;
-   padding-bottom: 150px;
+   padding-bottom: 100px;
 }
 
 .banner_menu button {
    background-color: transparent;
    border: none;
+}
+
+.coffe {
+    height: 28px;
+    width: 152px;
+    padding: 32px 600px 0px;
 }
 
 /*navegação / descrição / setas*/
@@ -47,19 +53,25 @@ body {
 .título h2 {
     font-family: 'Questrial', sans-serif;
     margin-left: 80px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
     font-weight: 200;
     font-size: 32px;
     line-height: 40px;
     color: #FFFFFF;
 }
-.setas {
-    margin-left: 80px;
-}
 
 .setas button {
     background-color: transparent;
     border: none;
+    height: 100px;
+    width: 100px;
+}
+
+.setas {
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    
 }
 
 /*descrição do café*/
@@ -206,7 +218,8 @@ body {
 /*opções do produto*/
 .produto {
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    padding-left: 80px;;   
 }
 
 .catálogo {
@@ -337,12 +350,160 @@ body {
     padding-left: 80px;
     Width: 1420px;
     Height: 500px;
+}
 
+/*pagamento*/
+
+.numero_02 {
+    display: flex;
+    justify-content: start;
+}
+
+.pagamento {
+    height: 316px;
+    width: 499px;
+}
+
+.title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    padding: 48px 0px 16px 48px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.quadrado {
+    height: 164px;
+    width: 403px;
+    border-radius: 4px;
+    background: #F2F2F2;
+    margin-left: 48px;
+    margin-right: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pacote {
+    padding: 24px;
+}
+
+.title2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    margin:0;
+}
+
+.price {
+    font-family: 'Questrial', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #0B1D03;
+    margin: 0;
+}
+
+.end {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #A0996C;    
+    margin-top: 16px;
+}
+
+.texto {
+    padding-top: 24px;
+}
+
+.pessoal {
+    background-color: rgb(233, 233, 240);
+    height: 900px;
+    width: 784px; 
+    padding: 37px 48px 48px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados h6 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B1D03;
+    margin: 0;
+}
+
+.dados h7 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #969696;    
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    margin: 48px 0px 32px;
+}
+
+img {
+padding: 8px 10px 0px 10px;
+}
+
+input {
+    height: 76px;
+    width: 656px;
+    border-radius: 4px;
+    border: 2px solid #0B1D03;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    /*text*/
+    color: #969696;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+textarea {
+    height: 238px;
+    width: 656px;
+    border-radius: 4px;
+    border: 2px solid #0B1D03;
+    padding-left: 24px;
+    padding-top: 24px;
+    margin-bottom: 32px;
+    /*text*/
+    color: #969696;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 530;
+}
+
+button {
+    height: 76px;
+    width: 685px;
+    border-radius: 4px;
+    background-color: #0B1D03;
+    /*text*/
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
 }
 
 /*rodapé*/
 .rodapé {
-    
     font-family: 'Questrial', sans-serif;
     height: 306px;
     background: #F7F1E6;
